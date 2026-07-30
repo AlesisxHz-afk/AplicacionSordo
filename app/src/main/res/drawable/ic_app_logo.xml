@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Outer Glow Circle -->
+    <path
+        android:pathData="M48,8 C70.09,8 88,25.91 88,48 C88,70.09 70.09,88 48,88 C25.91,88 8,70.09 8,48 C8,25.91 25.91,8 48,8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="8"
+                android:startY="8"
+                android:endX="88"
+                android:endY="88"
+                android:type="linear">
+                <item android:color="#2563EB" android:offset="0.0" />
+                <item android:color="#7C3AED" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Hand / Wave Sign Symbol -->
+    <!-- Palm & Fingers Icon representation for deaf / sign app -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,22 C51.31,22 54,24.69 54,28 L54,42 C55.38,40.79 57.25,40 59.3,40 C63.0,40 66,43.0 66,46.7 L66,54 C66,66.15 56.15,76 44,76 C36.2,76 29.35,71.95 25.4,65.85 L20.75,58.35 C19.65,56.55 20.25,54.2 22.05,53.1 C23.85,52 26.2,52.6 27.3,54.4 L31,60.5 L31,34 C31,30.69 33.69,28 37,28 C38.5,28 39.85,28.55 40.9,29.45 C41.65,26.35 44.45,24 47.8,24 C47.87,24 47.93,24 48,24.02 L48,22 Z M48,26.5 C46.07,26.5 44.5,28.07 44.5,30 L44.5,44 L48,44 L48,26.5 Z M37,32.5 C36.17,32.5 35.5,33.17 35.5,34 L35.5,46 L39,46 L39,34.5 C39,33.4 38.1,32.5 37,32.5 Z" />
+</vector>

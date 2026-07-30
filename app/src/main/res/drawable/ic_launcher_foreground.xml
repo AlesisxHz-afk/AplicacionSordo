@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Inner White Circular Container -->
+    <path
+        android:fillColor="#15FFFFFF"
+        android:pathData="M54,18 C73.88,18 90,34.12 90,54 C90,73.88 73.88,90 54,90 C34.12,90 18,73.88 18,54 C18,34.12 34.12,18 54,18 Z" />
+
+    <!-- Sign Language Hand Gesture Symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28 C57.31,28 60,30.69 60,34 L60,48 C61.38,46.79 63.25,46 65.3,46 C69.0,46 72,49.0 72,52.7 L72,60 C72,72.15 62.15,82 50,82 C42.2,82 35.35,77.95 31.4,71.85 L26.75,64.35 C25.65,62.55 26.25,60.2 28.05,59.1 C29.85,58 32.2,58.6 33.3,60.4 L37,66.5 L37,40 C37,36.69 39.69,34 43,34 C44.5,34 45.85,34.55 46.9,35.45 C47.65,32.35 50.45,30 53.8,30 C53.87,30 53.93,30 54,30.02 L54,28 Z M54,32.5 C52.07,32.5 50.5,34.07 50.5,36 L50.5,50 L54,50 L54,32.5 Z M43,38.5 C42.17,38.5 41.5,39.17 41.5,40 L41.5,52 L45,52 L45,40.5 C45,39.4 44.1,38.5 43,38.5 Z" />
+
+    <!-- AI Sparkle / Translation Dots Accent -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M78,32 L80,36 L84,38 L80,40 L78,44 L76,40 L72,38 L76,36 Z" />
+
+</vector>

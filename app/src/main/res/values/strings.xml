@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicación Sordo</string>
+    <string name="login_title">¡Bienvenido!</string>
+    <string name="login_subtitle">Inicia sesión con tu usuario para continuar</string>
+    <string name="email_label">Usuario</string>
+    <string name="email_hint">Ej: user01, admin01</string>
+    <string name="password_label">Contraseña</string>
+    <string name="password_hint">••••••••</string>
+    <string name="remember_me">Recordarme</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="or_continue_with">O continúa con</string>
+    <string name="btn_google_login">Iniciar sesión con Google</string>
+    <string name="no_account">¿No tienes una cuenta?</string>
+    <string name="register_now">Regístrate</string>
+
+    <!-- Error & Info Messages -->
+    <string name="error_empty_email">Por favor ingresa tu usuario</string>
+    <string name="error_empty_password">Por favor ingresa tu contraseña</string>
+    <string name="error_short_password">La contraseña debe tener al menos 4 caracteres</string>
+    <string name="login_success">¡Inicio de sesión exitoso!</string>
+    <string name="forgot_password_msg">Instrucciones enviadas para restablecer la contraseña.</string>
+    <string name="register_click_msg">Redirigiendo a la pantalla de registro...</string>
+    <string name="google_click_msg">Iniciando sesión con Google...</string>
+
+    <!-- Translator Dashboard -->
+    <string name="dashboard_title">Traductor de Lengua de Señas</string>
+    <string name="camera_permission_required">Se requiere permiso de cámara para traducir señas en tiempo real.</string>
+    <string name="btn_logout">Cerrar Sesión</string>
+    <string name="status_camera_active">🟢 Cámara activa • Traduciendo señas...</string>
+    <string name="translation_title">Traducción en tiempo real</string>
+</resources>

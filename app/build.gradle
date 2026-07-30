@@ -1,0 +1,53 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.example.aplicacionsordo'
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.example.aplicacionsordo"
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            optimization {
+                enable false
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation libs.activity.ktx
+    implementation libs.appcompat
+    implementation libs.constraintlayout
+    implementation libs.material
+    implementation 'org.postgresql:postgresql:42.2.5.jre7'
+
+    // CameraX dependencies
+    def cameraVersion = "1.3.2"
+    implementation "androidx.camera:camera-core:${cameraVersion}"
+    implementation "androidx.camera:camera-camera2:${cameraVersion}"
+    implementation "androidx.camera:camera-lifecycle:${cameraVersion}"
+    implementation "androidx.camera:camera-view:${cameraVersion}"
+
+    testImplementation libs.junit
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.ext.junit
+}
